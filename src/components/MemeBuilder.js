@@ -1,7 +1,6 @@
 import React from 'react';
 
 import './MemeBuilder.css';
-import Button from './layout/Button'
 
 const MemeBuilder = (props) => {
     return (
@@ -23,7 +22,7 @@ const MemeBuilder = (props) => {
                         <input autoComplete='off' onChange={(e) => props.bottomTextVal(e)} value={props.bottomText} type="text" id='bottomText' />
                     </li>
                     
-                    <Button click={props.finishMeme} text='Generate Meme' />
+                    <button className='button' onClick={props.finishMeme}>Generate Meme</button>
 
                 </ul>
             </div>

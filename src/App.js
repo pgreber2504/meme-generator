@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import './App.css';
 import { BrowserRouter, Route } from 'react-router-dom';
 
@@ -6,8 +6,6 @@ import Navbar from './components/layout/Navbar'
 import Home from './components/routes/Home'
 import About from './components/routes/About'
 import Main from './components/routes/Main'
-import Modal from './components/layout/Modal';
-import Spinner from './components/layout/Spinner';
 
 const USERNAME_AND_PASSWORD = 'memegenerator2212'
 
@@ -16,7 +14,6 @@ function App() {
   const [selected, setSelected] = useState(null);
   const [clickSelectTemp, setClickSelectTemp] = useState(false);
   const [loader, setLoader] = useState(false);
-  const [showModal, setShowModal] = useState(false);
   const [topBoxVal, setTopBoxVal] = useState('');
   const [bottomBoxVal, setBottomBoxVal] = useState('');
   const [memeData, setMemeData] = useState(null);
@@ -80,7 +77,7 @@ function App() {
   return (
     <BrowserRouter>
       <div className="App">
-        <div class="background-image"></div>
+        <div className="background-image"></div>
         <Navbar classes={activeClassesNav} activeNav={setActive} />
         <div className="container">
           <Route exact path='/' component={Home} />
