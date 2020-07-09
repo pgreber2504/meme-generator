@@ -1,0 +1,29 @@
+.buttonDiv{
+    display: block;
+    margin:10px; 
+    padding:10px;
+    background-color:#ccc;
+    border-radius: 20px;
+}
+
+.buttonTitle{
+    text-transform: uppercase;
+    margin: 10px 0;
+}
+
+.button{
+	background: #4c4c4c;
+	border: none;
+	padding: 10px 20px 10px 20px;
+	border-bottom: 3px solid #6c6c6c;
+	border-radius: 3px;
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+    text-decoration: none;
+}
+.button:hover{
+	background: #6c6c6c;
+    color:#fff;
+    text-decoration: none;
+}
