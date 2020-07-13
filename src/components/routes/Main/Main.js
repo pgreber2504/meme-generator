@@ -1,10 +1,10 @@
 import React from 'react';
 
-import Button from '../layout/Button';
-import Meme from '../Meme';
-import MemeBuilder from '../MemeBuilder';
-import MemeFinished from '../MemeFinished';
-import Spinner from '../layout/Spinner'
+import Button from '../../layout/Button/Button';
+import Meme from '../../Meme/Meme';
+import MemeBuilder from '../../MemeBuilder/MemeBuilder';
+import MemeFinished from '../../MemeFinished/MemeFinished';
+import Spinner from '../../layout/Spinner/Spinner'
 
 const Main = (props) => {
 

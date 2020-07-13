@@ -2,7 +2,7 @@ import React from 'react'
 import {Link} from 'react-router-dom'
 
 import './Home.css'
-import img from '../../assets/trollface.png'
+import img from '../../../assets/trollface.png'
 
 const Home = () => {
     return (

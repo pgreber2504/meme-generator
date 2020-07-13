@@ -2,10 +2,10 @@ import React, { useState } from 'react';
 import './App.css';
 import { BrowserRouter, Route } from 'react-router-dom';
 
-import Navbar from './components/layout/Navbar'
-import Home from './components/routes/Home'
-import About from './components/routes/About'
-import Main from './components/routes/Main'
+import Navbar from './components/layout/Navbar/Navbar'
+import Home from './components/routes/Home/Home'
+import About from './components/routes/About/About'
+import Main from './components/routes/Main/Main'
 
 const USERNAME_AND_PASSWORD = 'memegenerator2212'
 
